@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Touba", "Touba\Touba.csproj", "{B30950C5-B722-407C-B13F-3C78A394DFC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities_aspnet", "Utilities_aspnet\Utilities_aspnet.csproj", "{7E64D21F-3974-415A-B9D5-68264C6035BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B30950C5-B722-407C-B13F-3C78A394DFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30950C5-B722-407C-B13F-3C78A394DFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30950C5-B722-407C-B13F-3C78A394DFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30950C5-B722-407C-B13F-3C78A394DFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E64D21F-3974-415A-B9D5-68264C6035BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E64D21F-3974-415A-B9D5-68264C6035BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E64D21F-3974-415A-B9D5-68264C6035BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E64D21F-3974-415A-B9D5-68264C6035BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
