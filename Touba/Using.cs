@@ -1,0 +1,13 @@
+﻿global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore;
+global using Utilities_aspnet.User.Entities;
+global using Utilities_aspnet.Utilities.Entities;
+global using Utilities_aspnet.Statistic.Entities;
+global using ZNetCS.AspNetCore.Logging.EntityFrameworkCore;
+global using Utilities_aspnet.Wallet.Entities;
+global using Utilities_aspnet.FormBuilder;
+global using Anbor.Core;
+global using Utilities_aspnet.Content;
+global using Utilities_aspnet.IdTitle;
+global using Utilities_aspnet.Product;
+global using Microsoft.AspNetCore.Mvc;

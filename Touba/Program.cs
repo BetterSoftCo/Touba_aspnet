@@ -1,23 +1,13 @@
-var builder = WebApplication.CreateBuilder(args);
+using Touba.Core;
+using Utilities_aspnet.Utilities;
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-var app = builder.Build();
+builder.SetupUtilities<AppDbContext>(builder.Configuration.GetConnectionString("LocalMySql"), DatabaseType.MySql);
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment()) {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
+WebApplication app = builder.Build();
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
+app.UseUtilitiesServices();
 
 app.MapControllerRoute(
     name: "default",
